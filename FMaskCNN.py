@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 
 # Load the model
-model_path = "c:/Users/USER/Desktop/MLOPS/CnnFaceMask3model.h5" 
+model_path = ("CnnFaceMask3model.h5") 
 # encoder_path ="C:/Users/USER/Desktop/MLOPS/encoder.sav"
 loaded_model = load_model(model_path,compile=False)
 
